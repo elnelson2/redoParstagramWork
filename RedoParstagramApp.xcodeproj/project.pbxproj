@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		524D68A62B4502F40029E000 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D68A52B4502F40029E000 /* CommentCell.swift */; };
 		5252AF2B2B059B12000CE6F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252AF2A2B059B12000CE6F0 /* AppDelegate.swift */; };
 		5252AF2D2B059B12000CE6F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252AF2C2B059B12000CE6F0 /* SceneDelegate.swift */; };
 		5252AF2F2B059B12000CE6F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252AF2E2B059B12000CE6F0 /* ViewController.swift */; };
@@ -16,6 +17,13 @@
 		5252AF422B059B14000CE6F0 /* RedoParstagramAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252AF412B059B14000CE6F0 /* RedoParstagramAppTests.swift */; };
 		5252AF4C2B059B14000CE6F0 /* RedoParstagramAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252AF4B2B059B14000CE6F0 /* RedoParstagramAppUITests.swift */; };
 		5252AF4E2B059B14000CE6F0 /* RedoParstagramAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252AF4D2B059B14000CE6F0 /* RedoParstagramAppUITestsLaunchTests.swift */; };
+		5252AF5B2B05B1C3000CE6F0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252AF5A2B05B1C3000CE6F0 /* LoginViewController.swift */; };
+		5252AF5D2B05B20F000CE6F0 /* MainFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252AF5C2B05B20F000CE6F0 /* MainFeedViewController.swift */; };
+		5252AF5F2B080E0B000CE6F0 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252AF5E2B080E0B000CE6F0 /* CameraViewController.swift */; };
+		52CF17172B3B601E00BD094A /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CF17162B3B601E00BD094A /* PostCell.swift */; };
+		636450D38CC254A0DEBE7B8B /* Pods_RedoParstagramApp_RedoParstagramAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBB7A966BA2D958BDEF12B5 /* Pods_RedoParstagramApp_RedoParstagramAppUITests.framework */; };
+		65B68E641B1BDA059363D033 /* Pods_RedoParstagramAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36462D7177A2B7199788CB7 /* Pods_RedoParstagramAppTests.framework */; };
+		A906B600E71F3F9D7D61849B /* Pods_RedoParstagramApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D254FBD17DB59F7A7FF2AE8 /* Pods_RedoParstagramApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D254FBD17DB59F7A7FF2AE8 /* Pods_RedoParstagramApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedoParstagramApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C778DDE4AB89C62E2598D5D /* Pods-RedoParstagramApp-RedoParstagramAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedoParstagramApp-RedoParstagramAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-RedoParstagramApp-RedoParstagramAppUITests/Pods-RedoParstagramApp-RedoParstagramAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E26D84E10CEF990CA315A70 /* Pods-RedoParstagramApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedoParstagramApp.release.xcconfig"; path = "Target Support Files/Pods-RedoParstagramApp/Pods-RedoParstagramApp.release.xcconfig"; sourceTree = "<group>"; };
+		524D68A52B4502F40029E000 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		5252AF272B059B12000CE6F0 /* RedoParstagramApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedoParstagramApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5252AF2A2B059B12000CE6F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5252AF2C2B059B12000CE6F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,16 @@
 		5252AF472B059B14000CE6F0 /* RedoParstagramAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedoParstagramAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5252AF4B2B059B14000CE6F0 /* RedoParstagramAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedoParstagramAppUITests.swift; sourceTree = "<group>"; };
 		5252AF4D2B059B14000CE6F0 /* RedoParstagramAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedoParstagramAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5252AF5A2B05B1C3000CE6F0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5252AF5C2B05B20F000CE6F0 /* MainFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFeedViewController.swift; sourceTree = "<group>"; };
+		5252AF5E2B080E0B000CE6F0 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		52CF17162B3B601E00BD094A /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		86606837EFCE136B7F15D609 /* Pods-RedoParstagramAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedoParstagramAppTests.release.xcconfig"; path = "Target Support Files/Pods-RedoParstagramAppTests/Pods-RedoParstagramAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		AEBB7A966BA2D958BDEF12B5 /* Pods_RedoParstagramApp_RedoParstagramAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedoParstagramApp_RedoParstagramAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2240FD122E4A827A32ECEDD /* Pods-RedoParstagramAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedoParstagramAppTests.debug.xcconfig"; path = "Target Support Files/Pods-RedoParstagramAppTests/Pods-RedoParstagramAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D30CA4D61CD741B66880AED4 /* Pods-RedoParstagramApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedoParstagramApp.debug.xcconfig"; path = "Target Support Files/Pods-RedoParstagramApp/Pods-RedoParstagramApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E36462D7177A2B7199788CB7 /* Pods_RedoParstagramAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedoParstagramAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6D081F83564409A3DC50CB4 /* Pods-RedoParstagramApp-RedoParstagramAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedoParstagramApp-RedoParstagramAppUITests.release.xcconfig"; path = "Target Support Files/Pods-RedoParstagramApp-RedoParstagramAppUITests/Pods-RedoParstagramApp-RedoParstagramAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A906B600E71F3F9D7D61849B /* Pods_RedoParstagramApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B68E641B1BDA059363D033 /* Pods_RedoParstagramAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				636450D38CC254A0DEBE7B8B /* Pods_RedoParstagramApp_RedoParstagramAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		499A560FD535DB57A82DA55E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D254FBD17DB59F7A7FF2AE8 /* Pods_RedoParstagramApp.framework */,
+				AEBB7A966BA2D958BDEF12B5 /* Pods_RedoParstagramApp_RedoParstagramAppUITests.framework */,
+				E36462D7177A2B7199788CB7 /* Pods_RedoParstagramAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5252AF1E2B059B12000CE6F0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +118,8 @@
 				5252AF402B059B14000CE6F0 /* RedoParstagramAppTests */,
 				5252AF4A2B059B14000CE6F0 /* RedoParstagramAppUITests */,
 				5252AF282B059B12000CE6F0 /* Products */,
+				BDB0275626817B56CA8182FF /* Pods */,
+				499A560FD535DB57A82DA55E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +140,14 @@
 				5252AF2C2B059B12000CE6F0 /* SceneDelegate.swift */,
 				5252AF2E2B059B12000CE6F0 /* ViewController.swift */,
 				5252AF302B059B12000CE6F0 /* Main.storyboard */,
+				52CF17162B3B601E00BD094A /* PostCell.swift */,
 				5252AF332B059B14000CE6F0 /* Assets.xcassets */,
 				5252AF352B059B14000CE6F0 /* LaunchScreen.storyboard */,
 				5252AF382B059B14000CE6F0 /* Info.plist */,
+				5252AF5A2B05B1C3000CE6F0 /* LoginViewController.swift */,
+				5252AF5C2B05B20F000CE6F0 /* MainFeedViewController.swift */,
+				5252AF5E2B080E0B000CE6F0 /* CameraViewController.swift */,
+				524D68A52B4502F40029E000 /* CommentCell.swift */,
 			);
 			path = RedoParstagramApp;
 			sourceTree = "<group>";
@@ -127,6 +169,19 @@
 			path = RedoParstagramAppUITests;
 			sourceTree = "<group>";
 		};
+		BDB0275626817B56CA8182FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D30CA4D61CD741B66880AED4 /* Pods-RedoParstagramApp.debug.xcconfig */,
+				3E26D84E10CEF990CA315A70 /* Pods-RedoParstagramApp.release.xcconfig */,
+				3C778DDE4AB89C62E2598D5D /* Pods-RedoParstagramApp-RedoParstagramAppUITests.debug.xcconfig */,
+				E6D081F83564409A3DC50CB4 /* Pods-RedoParstagramApp-RedoParstagramAppUITests.release.xcconfig */,
+				B2240FD122E4A827A32ECEDD /* Pods-RedoParstagramAppTests.debug.xcconfig */,
+				86606837EFCE136B7F15D609 /* Pods-RedoParstagramAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5252AF512B059B14000CE6F0 /* Build configuration list for PBXNativeTarget "RedoParstagramApp" */;
 			buildPhases = (
+				4C2DBA9750FC81BB72F6B138 /* [CP] Check Pods Manifest.lock */,
 				5252AF232B059B12000CE6F0 /* Sources */,
 				5252AF242B059B12000CE6F0 /* Frameworks */,
 				5252AF252B059B12000CE6F0 /* Resources */,
+				60205C7DB62B5632D2553B3C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5252AF542B059B14000CE6F0 /* Build configuration list for PBXNativeTarget "RedoParstagramAppTests" */;
 			buildPhases = (
+				A9B2ECC5C499C27D2C1E05BA /* [CP] Check Pods Manifest.lock */,
 				5252AF392B059B14000CE6F0 /* Sources */,
 				5252AF3A2B059B14000CE6F0 /* Frameworks */,
 				5252AF3B2B059B14000CE6F0 /* Resources */,
@@ -169,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5252AF572B059B14000CE6F0 /* Build configuration list for PBXNativeTarget "RedoParstagramAppUITests" */;
 			buildPhases = (
+				05A31218EAD82A08D3E75470 /* [CP] Check Pods Manifest.lock */,
 				5252AF432B059B14000CE6F0 /* Sources */,
 				5252AF442B059B14000CE6F0 /* Frameworks */,
 				5252AF452B059B14000CE6F0 /* Resources */,
+				727590F0E986CE63F7AA3006 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +313,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05A31218EAD82A08D3E75470 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RedoParstagramApp-RedoParstagramAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C2DBA9750FC81BB72F6B138 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RedoParstagramApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60205C7DB62B5632D2553B3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RedoParstagramApp/Pods-RedoParstagramApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RedoParstagramApp/Pods-RedoParstagramApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RedoParstagramApp/Pods-RedoParstagramApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		727590F0E986CE63F7AA3006 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RedoParstagramApp-RedoParstagramAppUITests/Pods-RedoParstagramApp-RedoParstagramAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RedoParstagramApp-RedoParstagramAppUITests/Pods-RedoParstagramApp-RedoParstagramAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RedoParstagramApp-RedoParstagramAppUITests/Pods-RedoParstagramApp-RedoParstagramAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9B2ECC5C499C27D2C1E05BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RedoParstagramAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5252AF232B059B12000CE6F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52CF17172B3B601E00BD094A /* PostCell.swift in Sources */,
+				5252AF5B2B05B1C3000CE6F0 /* LoginViewController.swift in Sources */,
+				5252AF5D2B05B20F000CE6F0 /* MainFeedViewController.swift in Sources */,
 				5252AF2F2B059B12000CE6F0 /* ViewController.swift in Sources */,
 				5252AF2B2B059B12000CE6F0 /* AppDelegate.swift in Sources */,
 				5252AF2D2B059B12000CE6F0 /* SceneDelegate.swift in Sources */,
+				5252AF5F2B080E0B000CE6F0 /* CameraViewController.swift in Sources */,
+				524D68A62B4502F40029E000 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +600,7 @@
 		};
 		5252AF522B059B14000CE6F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D30CA4D61CD741B66880AED4 /* Pods-RedoParstagramApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +629,7 @@
 		};
 		5252AF532B059B14000CE6F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E26D84E10CEF990CA315A70 /* Pods-RedoParstagramApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +658,7 @@
 		};
 		5252AF552B059B14000CE6F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2240FD122E4A827A32ECEDD /* Pods-RedoParstagramAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +679,7 @@
 		};
 		5252AF562B059B14000CE6F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86606837EFCE136B7F15D609 /* Pods-RedoParstagramAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +700,7 @@
 		};
 		5252AF582B059B14000CE6F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C778DDE4AB89C62E2598D5D /* Pods-RedoParstagramApp-RedoParstagramAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +719,7 @@
 		};
 		5252AF592B059B14000CE6F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6D081F83564409A3DC50CB4 /* Pods-RedoParstagramApp-RedoParstagramAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
